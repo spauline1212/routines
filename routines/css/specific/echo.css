@@ -1,0 +1,10 @@
+/*
+.echo .q-right p, p.intro-label {font-size:15px;line-height:25px;font-weight:bold}
+*/
+.echo .q-right p, p.intro-label {font-size:12px;line-height:19px;font-weight:normal}
+
+
+.confirmation {color:#393;text-align:left;font-size:14px;line-height:17px;font-weight:normal}
+.echo .q-right .answer {font-size:11px;line-height:18px;font-weight:normal;padding-top:7px}
+
+.echo .question {margin-bottom:60px;}

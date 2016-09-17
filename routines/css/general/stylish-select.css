@@ -1,0 +1,101 @@
+/**
+* Stylish Select 0.4.5 - $ plugin to replace a select drop down box with a stylable unordered list
+* http://scottdarby.com/
+* 
+* Copyright (c) 2009 Scott Darby
+* 
+* Requires: jQuery 1.3 or newer
+* 
+* Dual licensed under the MIT and GPL licenses.
+*/
+
+
+
+
+
+/**
+* Hide lists on page load
+---------------------------------------------------------*/
+
+.stylish-select .SSContainerDivWrapper {
+	left:-9999px;
+}
+
+/*
+* Red example
+---------------------------------------------------------*/
+.stylish-select .SSContainerDivWrapper {
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:0;
+	z-index:5;
+}
+
+.stylish-select ul.newList {
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:#000;
+	background:#fff;
+	border:1px solid #ccc;
+	overflow:visible;
+}
+
+.stylish-select ul.newList * {
+	margin:0;
+	padding:0;
+}
+
+
+.stylish-select ul.newList a {
+	color: #000;
+	text-decoration:none;
+	display:block;
+	padding:3px 8px;
+}
+
+.stylish-select .newListSelected {
+	color:#000;
+	padding:3px 0 0 6px;
+	float:left;
+	z-index:5;
+}
+
+.stylish-select ul.newList li a:focus {
+	-moz-outline-style: none;
+}
+
+.stylish-select .selectedTxt {
+	overflow:hidden;
+}
+
+.stylish-select .hiLite {
+	background:#243b65!important;
+	color:#fff!important;
+}
+
+.stylish-select .newListHover {
+	background:#ccc!important;
+	color:#000!important;
+	cursor:default;
+}
+
+.stylish-select .newListSelHover,
+.stylish-select .newListSelFocus {
+	background-position:0 -22px;
+	cursor:default;
+}
+
+.stylish-select .newListOptionTitle {
+	font-weight:bold;
+}
+
+.stylish-select .newListOptionTitle ul {
+	margin:3px 0 0;
+}
+
+.stylish-select .newListOptionTitle li {
+	font-weight:normal;
+	border-left:1px solid #ccc;
+}

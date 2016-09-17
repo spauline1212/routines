@@ -1,0 +1,59 @@
+/**
+* Stylish Select 0.4.5 - $ plugin to replace a select drop down box with a stylable unordered list
+* http://scottdarby.com/
+* 
+* Copyright (c) 2009 Scott Darby
+* 
+* Requires: jQuery 1.3 or newer
+* 
+* Dual licensed under the MIT and GPL licenses.
+*/
+
+
+
+/*arrow 26px*/
+
+
+.stylish-select-i .SSContainerDivWrapper {
+	width:180px;
+	top:22px;
+}
+
+
+.stylish-select-i .newListSelected {
+	width:175px;
+	height:24px;
+	background:url(../../images/bg/dropdown-manager-name.png) no-repeat;
+}
+
+
+.stylish-select-i .selectedTxt {
+	width:150px;
+	height:16px;
+	padding:0 26px 0 0;
+	line-height:16px;
+}
+
+
+
+
+.stylish-select-ii .SSContainerDivWrapper {
+	width:140px;
+	top:22px;
+}
+
+
+.stylish-select-ii .newListSelected {
+	width:135px;
+	height:24px;
+	background:url(../../images/bg/dropdown-month.png) no-repeat;
+}
+
+
+.stylish-select-ii .selectedTxt {
+	width:110px;
+	height:16px;
+	padding:0 26px 0 0;
+	line-height:16px;
+}
+

@@ -1,0 +1,57 @@
+.content {text-align:left;}
+div.hr, div.first-hr  {width:100%;font-weight:bold;}
+.report-list-table {
+    margin-top: 0px;
+}
+
+.print-table {
+    margin-top: 10px;
+}
+
+table.report-list-table tr.tr-top td.very-small {
+    padding-top:30px;
+}
+
+.print-header {font-size:12px;line-height:15px;font-weight:bold;padding-bottom:60px;}
+
+
+
+h2 {font-size:16px;line-height:19px;}
+
+.button {margin-left:15px;height:24px;font-weight:bold;border:1px solid}
+
+.L  select {font-size:10px;line-height:13px;}
+
+.L, .R  {width: 300px;}
+
+.r-label {width:150px}
+.r-value {width:550px;clear:none;padding-left:0}
+
+.q-left h1 {
+    font-size: 13px;
+    line-height: 16px;
+	}
+/*
+table.print-table tr.tr-bottom {padding-bottom:30px;}
+*/
+
+.echo .question {
+    margin-bottom:10px;
+}
+
+.main-row {margin-bottom:5px;}
+#main-manager p, #main-required p {
+    padding-bottom: 2px;
+}
+
+body, p, textarea, input {
+    line-height: 16px;
+}
+
+
+.echo .q-right .answer {
+    line-height: 14px;
+    padding-top: 2px;
+}
+
+#print-note {padding-bottom:30px;}

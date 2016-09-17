@@ -1,0 +1,70 @@
+
+.instructions-div
+{
+	width:860px;
+	height:700px;
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	overflow:hidden;
+	z-index:2;
+	background:none transparent;
+    color: #000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+	color:#111;
+    margin: 0px;
+    padding:0px;
+    text-align: left;
+}
+
+.instructions-div h1 
+{
+    font-size: 15px;
+    line-height: 18px;
+	color:#555;
+}
+.how-to-page {width:860px;height:700px;}
+.how-to-tl {background:url(images/bg/modal-corner-topleft.png) top left no-repeat transparent;width:10px;height:10px;}
+.how-to-tr {background:url(images/bg/modal-corner-topright.png) top left no-repeat transparent;width:10px;height:10px;}
+.how-to-bl {background:url(images/bg/modal-corner-bottomleft.png) top left no-repeat transparent;width:10px;height:10px;}
+.how-to-br {background:url(images/bg/modal-corner-bottomright.png) top left no-repeat transparent;width:10px;height:10px;}
+.how-to-ml {background:url(images/bg/modal-vertical-1px.png) top left repeat-y transparent;width:10px;height:680px;}
+.how-to-mr {background:url(images/bg/modal-vertical-1px.png) top left repeat-y transparent;width:10px;height:680px;}
+.how-to-tm {background:url(images/bg/modal-horz-1px.png) top left repeat-x transparent;height:10px;width:840px;}
+.how-to-bm {background:url(images/bg/modal-horz-1px.png) top left repeat-x transparent;height:10px;width:840px;}
+
+.how-to-mm {width:840px;height:680px;overflow:hidden;background-color:#fff}
+.how-to-content-header {line-height:14px;border-top:1px solid #ccc;width:830px;}
+.how-to-mm-inner-case {width:800px;height:624px;padding:20px;overflow:auto;*height:648px;padding-bottom:0px;}
+
+.how-to-page p {padding-bottom:10px;}
+
+.instructions-div .how-to-page ul {list-style-type:disc}
+.close-x
+{
+	position:absolute;
+	right:15px;
+	top:8px;
+	z-index:3;
+	float:none;
+	background:url(images/general/modal-x-active.png) top left no-repeat transparent;
+	width:10px;
+	height:10px;
+	cursor:pointer;
+}
+.how-to-content-header .active {background:url(images/general/modal-x-hover.png) top left no-repeat transparent;}
+
+.i-icon , .i-icon  a, .i-icon a:hover {line-height:14px;padding: 2px 0}
+.i-icon {background:url(images/general/info-icon-reg.png) no-repeat center center;margin:0;padding:2px 0;}
+.i-icon a, .i-icon-a {text-decoration:none;}
+.i-icon a:hover  {background:url(images/general/info-icon-over.png) no-repeat center center;margin:0;padding:2px 0px;text-decoration:none;}
+
+.help-div {position:absolute;top:0px;right:10px;}
+
+xmp, pre {    font-family: "Trebuchet MS";
+font-size: 11px;
+line-height: 15px;padding-top:0;margin-top:0;
+}

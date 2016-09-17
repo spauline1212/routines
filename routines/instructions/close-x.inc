@@ -1,0 +1,1 @@
+<div class="close-x">&nbsp;</div>
